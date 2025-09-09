@@ -48,7 +48,7 @@ MANDATORY_OBJ = $(LIBFT_OBJ) $(GNL_OBJ) $(PRINTF_OBJ)
 ALL_OBJ = $(MANDATORY_OBJ) $(LIBFT_BONUS_OBJ)
 
 # Headers - usando get_next_line_bonus.h
-HEADERS = libft.h get_next_line_bonus.h ft_printf.h
+HEADERS = libft.h
 
 # ================================== RULES =================================== #
 

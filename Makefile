@@ -28,7 +28,7 @@ LIBFT_BONUS_SRC = ft_lstnew_bonus.c ft_lstadd_front_bonus.c ft_lstsize_bonus.c \
 				ft_lstclear_bonus.c ft_lstiter_bonus.c ft_lstmap_bonus.c
 
 # Get Next Line BONUS - SEMPRE (múltiplos file descriptors)
-GNL_SRC = get_next_line_bonus.c get_next_line_utils_bonus.c
+GNL_SRC = get_next_line_bonus.c
 
 # Printf functions
 PRINTF_SRC = ft_printf.c ft_printpointer.c ft_printchar.c ft_printdecimal.c \

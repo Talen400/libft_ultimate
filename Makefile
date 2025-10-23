@@ -21,7 +21,7 @@ LIBFT_SRC = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c \
 			ft_atoi.c ft_calloc.c ft_strdup.c ft_substr.c ft_strjoin.c \
 			ft_strtrim.c ft_split.c ft_itoa.c ft_strmapi.c ft_striteri.c \
 			ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c \
-			ft_strcmp.c ft_split_lit.c
+			ft_strcmp.c ft_split_lit.c ft_free_split.c
 
 # Libft bonus functions (linked lists)
 LIBFT_BONUS_SRC = ft_lstnew_bonus.c ft_lstadd_front_bonus.c ft_lstsize_bonus.c \

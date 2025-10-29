@@ -6,7 +6,7 @@
 /*   By: tlavared <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/23 06:20:12 by tlavared          #+#    #+#             */
-/*   Updated: 2025/10/23 06:22:27 by tlavared         ###   ########.fr       */
+/*   Updated: 2025/10/29 04:28:32 by tlavared         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_free_split(char **s)
 	if (!s)
 		return ;
 	i = -1;
-	while(s[++i])
+	while (s[++i])
 		free(s[i]);
 	free(s);
 }
